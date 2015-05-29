@@ -62,3 +62,9 @@
     font-size: 15px;
     margin-bottom: 13px;
 }
+
+.about-me h1{
+  font-size: 60px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
