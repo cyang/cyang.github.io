@@ -50,16 +50,19 @@
 
 .about-me{
   background-color: #efefef;
-  border-bottom: 20px solid #dbdbdb;
+  border-bottom: 2px solid #dbdbdb;
 }
 
 .about-me h1{
     color: #393c3d;
-    font-size: 40px; 
+    font-size: 30px; 
+    font-family: 'Shift', sans-serif;
+    font-weight: bold;
 }
 
 .about-me p{
-    font-size: 35px;
-    margin-bottom: 20px;
+    padding: 10px 50px 20px 50px;
+    font-size: 16px;
     text-align: center;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
 }
