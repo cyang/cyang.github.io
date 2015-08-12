@@ -38,10 +38,11 @@
   background-color: #f7f7f7;
 }
 
-.learn-more h3 {
-  font-family: 'Shift', sans-serif;
-  font-size: 18px;
-  font-weight: bold;
+.learn-more h1 {
+    color: #393c3d;
+    font-size: 30px; 
+    font-family: 'Shift', sans-serif;
+    font-weight: bold;
 }
 
 .learn-more a {
