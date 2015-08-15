@@ -1,8 +1,13 @@
+.nav{
+  height: 45px;
+  background-color: #393c3d;
+}
+
 .nav a {
-  color: #5a5a5a;
+  color: snow;
   font-size: 11px;
   font-weight: bold;
-  padding: 14px 10px;
+  padding: 10px 10px;
   text-transform: uppercase;
 }
 
