@@ -97,3 +97,15 @@
     text-align: center;
     font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
 }
+
+.experience {
+  
+  border-bottom: 2px solid #dbdbdb;
+}
+
+.experience h1{
+    color: #393c3d;
+    font-size: 30px; 
+    font-family: 'Shift', sans-serif;
+    font-weight: bold;
+}
