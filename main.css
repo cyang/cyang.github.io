@@ -23,13 +23,13 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  height: 600px;
+  height: 710px;
   z-index: -1;
 }
 
 .jumbotron .container {
   position: relative;
-  top:10px;
+  top:40px;
 }
 
 .jumbotron h1 {
@@ -56,22 +56,23 @@
   border: 3px solid mediumspringgreen;
 }
 
-.learn-more {
-  background-color: #f7f7f7;
+.contact{
+  padding-bottom: 50px;
+  
 }
 
-.learn-more h1 {
+.contact h1 {
     color: #393c3d;
     font-size: 30px; 
     font-family: 'Shift', sans-serif;
     font-weight: bold;
 }
 
-.learn-more a {
+.contact a {
   color: #00b0ff;
 }
 
-.learn-more img {
+.contact img {
   height: 60px;
   width: 100px;
   position: relative;
@@ -102,11 +103,23 @@
 }
 
 .experience {
-  
+  background-color: #efefef;
   border-bottom: 2px solid #dbdbdb;
 }
 
 .experience h1{
+    color: #393c3d;
+    font-size: 30px; 
+    font-family: 'Shift', sans-serif;
+    font-weight: bold;
+}
+
+.projects {
+
+  border-bottom: 2px solid #dbdbdb;
+}
+
+.projects h1{
     color: #393c3d;
     font-size: 30px; 
     font-family: 'Shift', sans-serif;
