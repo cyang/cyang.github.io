@@ -23,7 +23,7 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  height: 710px;
+  height: 700px;
   z-index: -1;
 }
 
@@ -46,6 +46,12 @@
   color: #fff;
 }
 
+.about-me{
+  padding: 25px 10px;
+  background-color: #efefef;
+  border-bottom: 2px solid #dbdbdb;
+}
+
 .about-me img{
   width: 180px;
 	height: 180px;
@@ -56,7 +62,65 @@
   border: 3px solid mediumspringgreen;
 }
 
+
+.about-me h1{
+    color: #393c3d;
+    font-size: 30px; 
+    font-family: 'Shift', sans-serif;
+    font-weight: bold;
+}
+
+.about-me p{
+  position: relative;
+  	left: 20%;
+    width: 80%;
+    padding: 10px 20px 50px 20px;
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+}
+
+
+.projects {
+  padding: 25px 10px;
+  border-bottom: 2px solid #dbdbdb;
+}
+
+
+.projects img{
+  padding: 20px 20px;
+
+}
+
+.projects h1{
+    color: #393c3d;
+    font-size: 30px; 
+    font-family: 'Shift', sans-serif;
+    font-weight: bold;
+}
+
+.projects h2{
+    color: #00b0ff;
+    font-size: 25px; 
+/*    font-family: 'Shift', sans-serif;*/
+    font-weight: bold;
+}
+
+.experience {
+  background-color: #efefef;
+  padding: 25px 10px;
+  border-bottom: 2px solid #dbdbdb;
+}
+
+.experience h1{
+    color: #393c3d;
+    font-size: 30px; 
+    font-family: 'Shift', sans-serif;
+    font-weight: bold;
+}
+
 .contact{
+  padding: 25px 10px;
   padding-bottom: 50px;
   
 }
@@ -78,50 +142,4 @@
   position: relative;
   left: 10%;
   padding-right: 40px;
-}
-
-.about-me{
-  background-color: #efefef;
-  border-bottom: 2px solid #dbdbdb;
-}
-
-.about-me h1{
-    color: #393c3d;
-    font-size: 30px; 
-    font-family: 'Shift', sans-serif;
-    font-weight: bold;
-}
-
-.about-me p{
-  position: relative;
-  	left: 20%;
-    width: 80%;
-    padding: 10px 20px 50px 20px;
-    font-size: 16px;
-    text-align: center;
-    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
-}
-
-.experience {
-  background-color: #efefef;
-  border-bottom: 2px solid #dbdbdb;
-}
-
-.experience h1{
-    color: #393c3d;
-    font-size: 30px; 
-    font-family: 'Shift', sans-serif;
-    font-weight: bold;
-}
-
-.projects {
-
-  border-bottom: 2px solid #dbdbdb;
-}
-
-.projects h1{
-    color: #393c3d;
-    font-size: 30px; 
-    font-family: 'Shift', sans-serif;
-    font-weight: bold;
 }
