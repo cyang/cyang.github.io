@@ -6,6 +6,16 @@
   z-index: 100;
 }
 
+.consolas {
+  font-family: Consolas, monaco, monospace;
+	font-size: 30px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+  color: lightseagreen;
+}
+
 .nav a {
   color: snow;
   font-size: 11px;
@@ -47,41 +57,49 @@
 }
 
 .about-me{
-  padding: 25px 10px;
+  padding: 30px 10px;
   background-color: #efefef;
   border-bottom: 2px solid #dbdbdb;
 }
 
 .about-me img{
-  width: 180px;
-	height: 180px;
+  display: block;
+  margin-left: auto;
+    margin-right: auto;
+  width: 200px;
+	height: 200px;
 	border-radius: 150px;
 	-webkit-border-radius: 150px;
 	-moz-border-radius: 150px;
-  position: absolute;
+  position: relative;
   border: 3px solid mediumspringgreen;
+  
 }
 
 
 .about-me h1{
     color: #393c3d;
-    font-size: 30px; 
+    font-size: 40px; 
     font-family: 'Shift', sans-serif;
     font-weight: bold;
+    padding-bottom: 10px;
 }
 
 .about-me p{
+  top: 15px;
   position: relative;
-  	left: 20%;
-    width: 80%;
-    padding: 10px 20px 50px 20px;
-    font-size: 16px;
+    padding: 5px;
+    font-size: 18px;
     text-align: center;
     font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+      line-height: 30px;
+  margin-bottom: 15px;
+  margin-top: 15px;
 }
 
 
 .projects {
+  padding-top: 30px;
   border-bottom: 2px solid #dbdbdb;
 }
 
@@ -91,9 +109,10 @@
 
 .projects h1{
     color: #393c3d;
-    font-size: 30px; 
+    font-size: 40px; 
     font-family: 'Shift', sans-serif;
     font-weight: bold;
+    padding-bottom: 10px;
 }
 
 .projects h2{
@@ -105,28 +124,30 @@
 
 .experience {
   background-color: #efefef;
-  padding: 25px 10px;
+  padding: 30px 10px;
   border-bottom: 2px solid #dbdbdb;
 }
 
 .experience h1{
     color: #393c3d;
-    font-size: 30px; 
+    font-size: 40px; 
     font-family: 'Shift', sans-serif;
     font-weight: bold;
+    padding-bottom: 10px;
 }
 
 .contact{
-  padding: 25px 10px;
+  padding: 30px 10px;
   padding-bottom: 50px;
   
 }
 
 .contact h1 {
     color: #393c3d;
-    font-size: 30px; 
+    font-size: 40px; 
     font-family: 'Shift', sans-serif;
     font-weight: bold;
+    padding-bottom: 10px;
 }
 
 .contact a {
