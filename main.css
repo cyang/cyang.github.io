@@ -151,13 +151,19 @@
 }
 
 .contact p {
+  	font-family: Verdana, Geneva, sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.3999996185303px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     padding: 30px;
 }
 
-.contact a {
+.contact a { 
   color: #00b0ff;
 }
 
@@ -166,12 +172,28 @@
 }
 
 .social-icons a {
-  padding: 10px;
+  color: black;
 }
 
-.social-icons img{
-  width: 60px;
-  height: 60px;
+.facebook:hover {
+  color: #3B5998;
+}
+
+.linkedin:hover{
+  color:#007bb6
+}
+
+.github:hover{
+  color: #999999;
+}
+
+.stackoverflow:hover{
+  color: #fe7a15
+}
+
+.social-icons i{
+  padding: 20px;
+  font-size: 80px;
 }
 
 /* Carousel */
@@ -225,7 +247,7 @@
 .slide-copy p {
   color: #959595;
   font-family: Georgia, "Times New Roman", serif;
-  font-size: 1.15em;
+  font-size: 1.30em;
   line-height: 1.75em;
   margin-bottom: 15px;
   margin-top: 16px;
