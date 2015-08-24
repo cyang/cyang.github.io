@@ -1,3 +1,6 @@
 [submodule "submodules/jumpyMario"]
 	path = submodules/jumpyMario
 	url = https://github.com/cyang001/Jumpy-Mario
+[submodule "submodules/solarSystem"]
+	path = submodules/solarSystem
+	url = https://github.com/cyang001/Solar-System
