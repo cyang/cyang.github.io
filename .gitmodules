@@ -1,0 +1,3 @@
+[submodule "submodules/jumpyMario"]
+	path = submodules/jumpyMario
+	url = https://github.com/cyang001/Jumpy-Mario
