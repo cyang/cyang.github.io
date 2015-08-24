@@ -234,6 +234,7 @@
 .slide-img {
   margin-top: 10px;
   text-align: left;
+  padding: 10px;
 }
 
 /* Slide feature */
@@ -262,7 +263,7 @@
 
 .slider-nav {
   text-align: center;
-  margin-top: 20px;
+  padding-top: 15px;
   padding-bottom: 15px;
 }
 
