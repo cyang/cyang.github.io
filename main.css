@@ -16,6 +16,10 @@
   color: lightseagreen;
 }
 
+.spacing {
+  word-spacing: 20px;
+}
+
 .nav a {
   color: snow;
   font-size: 11px;
@@ -58,7 +62,6 @@
 
 .about-me{
   padding: 30px 10px;
-  background-color: #efefef;
   border-bottom: 2px solid #dbdbdb;
 }
 
@@ -100,11 +103,8 @@
 
 .projects {
   padding-top: 30px;
+  background-color: #efefef;
   border-bottom: 2px solid #dbdbdb;
-}
-
-.projects img{
-  left: 100px;
 }
 
 .projects h1{
@@ -123,7 +123,6 @@
 }
 
 .experience {
-  background-color: #efefef;
   padding: 30px 10px;
   border-bottom: 2px solid #dbdbdb;
 }
@@ -138,6 +137,7 @@
 
 .contact{
   padding: 30px 10px;
+  background-color: #efefef;
   padding-bottom: 50px;
   
 }
@@ -150,16 +150,28 @@
     padding-bottom: 10px;
 }
 
+.contact p {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 30px;
+}
+
 .contact a {
   color: #00b0ff;
 }
 
-.contact img {
+.social-icons {
+  text-align: center;
+}
+
+.social-icons a {
+  padding: 10px;
+}
+
+.social-icons img{
+  width: 60px;
   height: 60px;
-  width: 100px;
-  position: relative;
-  left: 10%;
-  padding-right: 40px;
 }
 
 /* Carousel */
@@ -167,7 +179,7 @@
 .slider {
   position: relative;
   width: 100%;
-  height: 470px;
+  height: 450px;
 }
 
 .slide {
@@ -183,6 +195,10 @@
 
 .active-slide {
     display: block;
+}
+
+.slide-copy {
+  text-align: center;
 }
 
 .slide-copy h1 {
@@ -216,7 +232,8 @@
 }
 
 .slide-img {
-  text-align: right;
+  margin-top: 10px;
+  text-align: left;
 }
 
 /* Slide feature */
@@ -246,6 +263,7 @@
 .slider-nav {
   text-align: center;
   margin-top: 20px;
+  padding-bottom: 15px;
 }
 
 .arrow-prev {
