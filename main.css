@@ -68,7 +68,7 @@
 .about-me img{
   display: block;
   margin-left: auto;
-    margin-right: auto;
+  margin-right: auto;
   width: 200px;
 	height: 200px;
 	border-radius: 150px;
@@ -96,6 +96,8 @@
     text-align: center;
     font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
       line-height: 30px;
+      margin-left: 30px;
+      margin-right: 30px;
   margin-bottom: 15px;
   margin-top: 15px;
 }
@@ -133,6 +135,30 @@
     font-family: 'Shift', sans-serif;
     font-weight: bold;
     padding-bottom: 10px;
+}
+
+.experience h2{
+  color: #333333;
+  margin-left: 30px;
+  margin-right: 30px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+
+}
+
+.experience p{
+  position: relative;
+    padding: 5px;
+    font-size: 18px;
+    margin-left: 60px;
+    margin-right: 60px;
+    text-align: justify;
+  font-family: Georgia, "Times New Roman", serif;
+  margin-bottom: 50px;
+  border-style: dotted;
+  border-color: #007bb6;
+  font-weight: 100;
 }
 
 .contact{
