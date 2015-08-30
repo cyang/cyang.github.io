@@ -58,6 +58,4 @@ function sliderPrev() {
     prevDot.addClass('active-dot');
 }
 
-
-
 $(document).ready(main);
