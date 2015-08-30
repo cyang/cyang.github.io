@@ -156,8 +156,11 @@
     margin-right: 60px;
     text-align: justify;
   font-family: Georgia, "Times New Roman", serif;
-  margin-bottom: 50px;
   font-weight: 100;
+}
+
+.experience ul{
+  margin-bottom: 30px;
 }
 
 .contact{
