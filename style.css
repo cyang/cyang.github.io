@@ -16,10 +16,6 @@
   color: lightseagreen;
 }
 
-.spacing {
-  word-spacing: 20px;
-}
-
 .nav a {
   color: snow;
   font-size: 11px;
@@ -179,16 +175,18 @@
 }
 
 .contact p {
-  	font-family: Verdana, Geneva, sans-serif;
+  font-family: Verdana, Geneva, sans-serif;
 	font-size: 18px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
 	line-height: 26.3999996185303px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    padding: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 30px;
+  padding-left: 4em;
 }
 
 .contact a { 
