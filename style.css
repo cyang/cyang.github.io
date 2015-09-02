@@ -6,6 +6,11 @@
   z-index: 100;
 }
 
+#Calendar {
+  width: 50%;
+  height: 50%;
+}
+
 .consolas {
   font-family: Consolas, monaco, monospace;
 	font-size: 30px;
