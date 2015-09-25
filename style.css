@@ -50,7 +50,7 @@
 .jumbotron h1 {
 
   color: #fff;
-  font-size: 60px;  
+  font-size: 60px;
   font-family: 'Shift', sans-serif;
   font-weight: bold;
 }
@@ -77,13 +77,13 @@
 	-moz-border-radius: 150px;
   position: relative;
   border: 3px solid mediumspringgreen;
-  
+
 }
 
 
 .about-me h1{
     color: #393c3d;
-    font-size: 40px; 
+    font-size: 40px;
     font-family: 'Shift', sans-serif;
     font-weight: bold;
     padding-bottom: 10px;
@@ -112,7 +112,7 @@
 
 .projects h1{
     color: #393c3d;
-    font-size: 40px; 
+    font-size: 40px;
     font-family: 'Shift', sans-serif;
     font-weight: bold;
     padding-bottom: 10px;
@@ -120,7 +120,7 @@
 
 .projects h2{
     color: #00b0ff;
-    font-size: 25px; 
+    font-size: 25px;
 /*    font-family: 'Shift', sans-serif;*/
     font-weight: bold;
 }
@@ -132,7 +132,7 @@
 
 .experience h1{
     color: #393c3d;
-    font-size: 40px; 
+    font-size: 40px;
     font-family: 'Shift', sans-serif;
     font-weight: bold;
     padding-bottom: 10px;
@@ -146,18 +146,18 @@
 	font-variant: normal;
 	font-weight: 500;
 	line-height: 26.3999996185303px;
-  margin-left: 20px;
-  color: indianred;
+    margin-left: 20px;
+    font-weight: 400;
 }
 
 .experience p{
-  position: relative;
+    position: relative;
     padding: 5px;
-    font-size: 18px;
+    font-size: 14px;
     margin-right: 60px;
     text-align: justify;
-  font-family: Georgia, "Times New Roman", serif;
-  font-weight: 100;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    font-weight: 100;
 }
 
 .experience ul{
@@ -168,12 +168,12 @@
   padding: 30px 10px;
   background-color: #efefef;
   padding-bottom: 50px;
-  
+
 }
 
 .contact h1 {
     color: #393c3d;
-    font-size: 40px; 
+    font-size: 40px;
     font-family: 'Shift', sans-serif;
     font-weight: bold;
     padding-bottom: 10px;
@@ -194,7 +194,7 @@
   padding-left: 4em;
 }
 
-.contact a { 
+.contact a {
   color: #00b0ff;
 }
 
@@ -255,11 +255,11 @@
 }
 
 .slide-copy h1 {
-  color: #363636;  
-  
+  color: #363636;
+
   font-family: 'Oswald', sans-serif;
   font-weight: 400;
-  
+
   font-size: 40px;
   margin-top: 105px;
   margin-bottom: 0px;
@@ -267,10 +267,10 @@
 
 .slide-copy h2 {
   color: #b7b7b7;
-  
+
   font-family: 'Oswald', sans-serif;
   font-weight: 400;
-  
+
   font-size: 40px;
   margin: 5px;
 }
@@ -306,11 +306,11 @@
 .slide-feature a {
   display: block;
   color: #6fc5e0;
-  
+
   font-family: "HelveticaNeueMdCn", Helvetica, sans-serif;
   font-family: 'Oswald', sans-serif;
   font-weight: 400;
-  
+
   font-size: 20px;
 }
 
