@@ -219,6 +219,10 @@
   color: #fe7a15
 }
 
+.bitbucket:hover{
+    color: #205081
+}
+
 .social-icons i{
   padding: 20px;
   font-size: 80px;
