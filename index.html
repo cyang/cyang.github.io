@@ -1,198 +1,233 @@
 <!DOCTYPE html>
 <html lang="en-US">
 
-  <head>
-    <meta charset="UTF-8">
-    <title>Christopher Yang</title>
-    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css">
-    <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
-    <link rel="stylesheet" href="css/style.css">
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <title>Christopher Yang</title>
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css">
+  <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
 
-  <body>
-    <div class="nav">
-      <div class="container">
-        <ul class="pull-left">
+<body>
+  <div class="nav">
+    <div class="container">
+      <ul class="pull-left">
+        <li>
+          <a class="jumper" href="#jumbotron">Christopher Yang</a>
+          <a class="resume" href="https://www.dropbox.com/s/fk7i2ep2kkhwxjx/Christopher%20Yang%20Resume%202015.pdf?dl=1" download>Resume</a>
+          <a href="blog">Blog</a>
+        </li>
+      </ul>
+      <ul class="pull-right">
+        <li>
+          <a class="jumper" href="#about">About</a>
+          <a class="jumper" href="#projects">Projects</a>
+          <a class="jumper" href="#experience">Experience</a>
+          <a class="jumper" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="jumbotron" id="jumbotron">
+    <div class="container">
+      <h1>{
+        <br>
+        <span style="padding-left:2em">
+          <span style="color: #b58900">data_type: </span>
+          <span style="color: #d33682">Personal Website</span>,</span>
+        <br>
+
+        <span style="padding-left:2em">
+          <span style="color: #b58900">first_name: </span>
+          <span style="color: #2aa198">"Christopher"</span>,
+          <br>
+          <span style="padding-left:2em">
+            <span style="color: #b58900">last_name: </span>
+            <span style="color: #2aa198">"Yang"</span>,
+            <br>
+          </span>
+          <span style="padding-left:2em">
+            <span style="color: #b58900">education_info: </span>{
+            <br>
+          </span>
+          <span style="padding-left:4em">college:
+            <span style="color: #2aa198">"City College of New York"</span>,
+            <br>
+          </span>
+          <span style="padding-left:4em">degree:
+            <span style="color: #2aa198">"Computer Science BS"</span>,
+            <br>
+          </span>
+          <span style="padding-left:4em">graduation_year:
+            <span style="color: #dc322f">2017</span>
+          </span>
+          <br>
+          <span style="padding-left:2em">},</span>
+          <br>
+          <span style="padding-left:2em">
+            <span style="color: #b58900">favorite_language: </span>
+            <span style="color: #2aa198">"python"</span>,</span>
+          <br>
+          <span style="padding-left:2em">
+            <span style="color: #b58900">awesome: </span>
+            <span style="color: #268bd2">true</span>,</span>
+          <br> }
+      </h1>
+    </div>
+  </div>
+  <div class="about-me" id="about">
+    <div class="container">
+      <div class="row">
+        <h1>
+          <span style="color:red">|</span>About Me</h1>
+        <img src="images/me.jpeg" alt="Christopher Yang">
+        <p>
+          <span class="consolas">
+            <b>Hello World</b>
+          </span>
+        </p>
+        <p>My name is Christopher!
+          <br>
+          <br> I am currently a junior at City College of New York (CCNY) studying Computer Science, who is experienced in
+          <strong>game design, web applications, iOS development</strong>, and
+          <strong>exploratory programming</strong>.
+          <br>
+          <br> At first, I had no idea what I was getting myself into. But words could not express the feeling and enjoyment of creation through my experience in programming. All the things I've taken for granted or enjoyed has always been developed through
+          code. My passion lies in creating elegant, but simple tools/applications for people to use everyday. And hopefully in the future, my code can change your life too.
+          <br>
+          <br> Now that you know about me a bit more, feel free to check out my portfolio. You're also more than welcome to contact me via email below!</p>
+      </div>
+    </div>
+  </div>
+  <div class="projects" id="projects">
+    <div class="container">
+      <div class="row">
+        <h1>
+          <span style="color:orange">|</span>Projects</h1>
+      </div>
+    </div>
+    <div class="slider">
+      <div class="slide active-slide">
+        <div class="container">
+          <div class="row">
+            <div class="slide-copy col-xs-6 col-sm-8 col-md-8">
+              <h1>Jumpy Mario</h1>
+              <p>A flappy bird clone (Mario themed) built using Phaser.io.</p>
+              <a href="submodules/jumpyMario/index.html">Play it now</a>
+            </div>
+            <div class="slide-img col-xs-6 col-sm-4 col-md-4">
+              <a href="https://github.com/cyang001/Jumpy-Mario">
+                <img src="images/jumpyMario.gif" class="img-rounded" alt="Jumpy Mario">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="container">
+          <div class="row">
+            <div class="slide-copy col-xs-6 col-sm-8 col-md-8">
+              <h1>Solar System</h1>
+              <p>A model of our solar system, built using HTML and CSS.</p>
+              <a href="submodules/solarSystem/index.html">Go to space</a>
+            </div>
+            <div class="slide-img col-xs-6 col-sm-4 col-md-4">
+              <a href="https://github.com/cyang001/Solar-System">
+                <img src="images/solarSystem.gif" class="img-rounded" alt="Solar System">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="slide">
+        <div class="container">
+          <div class="row">
+            <div class="slide-copy col-xs-6 col-sm-8 col-md-8">
+              <h1>Calendar</h1>
+              <p>A calendar iOS app using Parse, which was designed to sync with your friends' and coworkers' schedules.</p>
+            </div>
+            <div class="slide-img col-xs-6 col-sm-4 col-md-4">
+              <a href="https://github.com/cyang001/iOS-Calendar">
+                <img src="images/iOScalendar.gif" class="img-rounded" alt="Calendar App" id="Calendar">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="slider-nav">
+      <a href="#" class="arrow-prev">
+        <img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/arrow-prev.png" alt="Previous slider arrow">
+      </a>
+      <ul class="slider-dots">
+        <li class="dot active-dot">&bull;</li>
+        <li class="dot">&bull;</li>
+        <li class="dot">&bull;</li>
+      </ul>
+      <a href="#" class="arrow-next">
+        <img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/arrow-next.png" alt="Next slider arrow">
+      </a>
+    </div>
+  </div>
+  <div class="experience" id="experience">
+    <div class="container">
+      <div class="row">
+        <h1>
+          <span style="color:yellow">|</span>Experience</h1>
+        <h2>Technology and Developer Analyst Intern at Bank of America</h2>
+        <ul>
           <li>
-            <a class="jumper" href="#jumbotron">Christopher Yang</a>
-            <a class="resume" href="https://www.dropbox.com/s/fk7i2ep2kkhwxjx/Christopher%20Yang%20Resume%202015.pdf?dl=1" download>Resume</a>
-            <a href="blog">Blog</a>
+            <p>As a Technology and Developer Analyst intern, I integrated an automated-testing framework called Cucumber onto a web-based project, which contained over 500,000 lines of codebase. By adopting Cucumber, I reduced the testing steps gap by 88%,
+              increased the speed for testing Appian-generated webpages by 90%, and introduced a factory method design pattern with Java to facilitate behavior driven development.</p>
           </li>
         </ul>
-        <ul class="pull-right">
+        <h2>Researcher for the National Science Foundation EFRI-REM</h2>
+        <ul>
           <li>
-            <a class="jumper" href="#about">About</a>
-            <a class="jumper" href="#projects">Projects</a>
-            <a class="jumper" href="#experience">Experience</a>
-            <a class="jumper" href="#contact">Contact</a>
+            <p style="text">I was responsible for implementing an iPhone app in Objective-C that helps a visually impaired or blind user navigate from a location to another. Furthermore, I incorporated a server-client communication using a Google App Engine backend,
+              which allowed for the streaming of live video from the user's device to a website and delivery of crowd sourced directions through audio feedback.</p>
+            <a class="poster" href="images/ERNposter.jpg" data-lightbox="image-1" data-title="Poster for the Emerging Research National Conference 2015">Click here to check out my poster</a>
+            <br>
+            <a class="poster" href="https://youtu.be/RNcHsM2f8qw" style="margin: 3hy do0px">And here for a demonstration video</a>
+          </li>
+        </ul>
+        <h2>Researcher for NOAA-CREST</h2>
+        <ul>
+          <li>
+            <p>During my summer with NOAA-CREST, I gained a great deal of experience while working as a member of a team in data management using MATLAB, in addition to analyzing information gathered from a variety of instruments. As a researcher, my goal
+              was to understand and learn how the different sizes and concentration of aerosol particles, such as air pollutants caused by the burning of fossil fuels, in clouds can manipulate precipitation in specific parts of Puerto Rico. The data collected
+              was used to run a simulation for predicting the magnitude of rain and snowfall accurately.</p>
+            <a class="poster" href="images/NOAAposter.jpg" data-lightbox="image-2" data-title="Poster for the CUNY CREST Earth Systems Student Research Symposium 2013">Click here to check out my poster</a>
           </li>
         </ul>
       </div>
     </div>
-    <div class="jumbotron" id="jumbotron">
-      <div class="container">
-        <h1>Christopher Yang</h1>
-        <p>City College of New York 2017 | B.S. Computer Science</p>
+  </div>
+  <div class="contact" id="contact">
+    <div class="container">
+      <div class="row">
+        <h1>
+          <span style="color:green">|</span>Contact</h1>
+        <p><i class="fa fa-phone"></i> (718) 581-6413
+          <br>
+          <i class="fa fa-envelope-o"></i><a href="mailto:cyang001@citymail.cuny.edu">  cyang001@citymail.cuny.edu</a></p>
+        <div class="social-icons">
+          <a class="facebook" href="https://www.facebook.com/ChristopherYang126"><i class="fa fa-facebook-square"></i></a>
+          <a class="linkedin" href="http://www.linkedin.com/in/yang001"><i class="fa fa-linkedin"></i></a>
+          <a class="github" href="https://github.com/cyang001"><i class="fa fa-github"></i></a>
+          <a class="stackoverflow" href="http://stackoverflow.com/users/3768205/cyang001"><i class="fa fa-stack-overflow"></i></a>
+          <a class="bitbucket" href="https://bitbucket.org/cyang001"><i class="fa fa-bitbucket"></i></a>
+        </div>
+        <p>Copyright © Christopher Yang 2016</p>
       </div>
     </div>
-    <div class="about-me" id="about">
-      <div class="container">
-        <div class="row">
-          <h1>
-            <span style="color:red">|</span>About Me</h1>
-          <img src="images/me.jpeg" alt="Christopher Yang">
-          <p>
-            <span class="consolas">
-              <b>Hello World</b>
-            </span>
-          </p>
-          <p>My name is Christopher!<br><br> I am currently a junior at City College of New York (CCNY) studying Computer Science, who is
-            experienced in <strong>game design, web applications, iOS development</strong>, and <strong>exploratory programming</strong>.<br><br>
-            At first, I had no idea what I was getting myself into. But words could not express the feeling and enjoyment of creation through my
-            experience in programming. All the things I've taken for granted or enjoyed has always been developed through code. My passion
-            lies in creating elegant, but simple tools/applications for people to use everyday. And hopefully in the future, my code
-            can change your life too.<br><br>
-            Now that you know about me a bit more, feel free to check out my portfolio. You're also more than welcome to contact me
-            via email below!</p>
-        </div>
-      </div>
-    </div>
-    <div class="projects" id="projects">
-      <div class="container">
-        <div class="row">
-          <h1>
-            <span style="color:orange">|</span>Projects</h1>
-        </div>
-      </div>
-      <div class="slider">
-        <div class="slide active-slide">
-          <div class="container">
-            <div class="row">
-              <div class="slide-copy col-xs-6 col-sm-8 col-md-8">
-                <h1>Jumpy Mario</h1>
-                <p>A flappy bird clone (Mario themed) built using Phaser.io.</p>
-                <a href="submodules/jumpyMario/index.html">Play it now</a>
-              </div>
-              <div class="slide-img col-xs-6 col-sm-4 col-md-4">
-                <a href="https://github.com/cyang001/Jumpy-Mario"><img src="images/jumpyMario.gif" class="img-rounded" alt="Jumpy Mario"></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="slide">
-          <div class="container">
-            <div class="row">
-              <div class="slide-copy col-xs-6 col-sm-8 col-md-8">
-                <h1>Solar System</h1>
-                <p>A model of our solar system, built using HTML and CSS.</p>
-                <a href="submodules/solarSystem/index.html">Go to space</a>
-              </div>
-              <div class="slide-img col-xs-6 col-sm-4 col-md-4">
-                <a href="https://github.com/cyang001/Solar-System"><img src="images/solarSystem.gif" class="img-rounded" alt="Solar System"></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- <div class="slide">
-          <div class="container">
-            <div class="row">
-              <div class="slide-copy col-xs-6 col-sm-8 col-md-8">
-                <h1></h1>
-                <h2></h2>
-                <p></p>
-              </div>
-              <div class="slide-img col-xs-6 col-sm-4 col-md-4">
-                <img src>
-              </div>
-            </div>
-          </div>
-        </div>-->
-        <div class="slide">
-          <div class="container">
-            <div class="row">
-              <div class="slide-copy col-xs-6 col-sm-8 col-md-8">
-                <h1>Calendar</h1>
-                <p>A calendar iOS app using Parse, which was designed to sync with your friends' and coworkers' schedules.</p>
-              </div>
-              <div class="slide-img col-xs-6 col-sm-4 col-md-4">
-                <a href="https://github.com/cyang001/iOS-Calendar"><img src="images/iOScalendar.gif" class="img-rounded" alt="Calendar App" id="Calendar"></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="slider-nav">
-        <a href="#" class="arrow-prev"><img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/arrow-prev.png" alt="Previous slider arrow"></a>
-        <ul class="slider-dots">
-          <li class="dot active-dot">&bull;</li>
-          <li class="dot">&bull;</li>
-          <li class="dot">&bull;</li>
-          <!-- <li class="dot">&bull;</li>-->
-        </ul>
-        <a href="#" class="arrow-next"><img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/arrow-next.png" alt="Next slider arrow"></a>
-      </div>
-    </div>
-    <div class="experience" id="experience">
-      <div class="container">
-        <div class="row">
-          <h1>
-            <span style="color:yellow">|</span>Experience</h1>
-          <h2>Technology and Developer Analyst Intern at Bank of America</h2>
-          <ul>
-            <li>
-              <p>As a Technology and Developer Analyst intern, I integrated an automated-testing framework called Cucumber onto a web-based
-                project, which contained over 500,000 lines of codebase. By adopting Cucumber, I reduced the testing steps gap by 88%, increased
-                the speed for testing Appian-generated webpages by 90%, and introduced a factory method design pattern with Java to facilitate
-                behavior driven development.</p>
-            </li>
-          </ul>
-          <h2>Researcher for the National Science Foundation EFRI-REM</h2>
-          <ul>
-                <li>
-                <p style="text">I was responsible for implementing an iPhone app in Objective-C that helps a visually impaired or blind user navigate from
-                a location to another. Furthermore, I incorporated a server-client communication using a Google App Engine backend, which
-                allowed for the streaming of live video from the user's device to a website and delivery of crowd sourced directions through
-                audio feedback.</p>
-                <a class="poster" href="images/ERNposter.jpg" data-lightbox="image-1" data-title="Poster for the Emerging Research National Conference 2015">Click here to check out my poster</a><br>
-                <a class="poster" href="https://youtu.be/RNcHsM2f8qw" style="margin: 3hy do0px">And here for a demonstration video</a>
-            </li>
-          </ul>
-          <h2>Researcher for NOAA-CREST</h2>
-          <ul>
-            <li>
-              <p>During my summer with NOAA-CREST, I gained a great deal of experience while working as a member of a team in data management
-                using MATLAB, in addition to analyzing information gathered from a variety of instruments. As a researcher, my goal was to
-                understand and learn how the different sizes and concentration of aerosol particles, such as air pollutants caused by the
-                burning of fossil fuels, in clouds can manipulate precipitation in specific parts of Puerto Rico. The data collected was
-                used to run a simulation for predicting the magnitude of rain and snowfall accurately.</p>
-              <a class="poster" href="images/NOAAposter.jpg"
-              data-lightbox="image-2" data-title="Poster for the CUNY CREST Earth Systems Student Research Symposium 2013">Click here to check out my poster</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <div class="contact" id="contact">
-      <div class="container">
-        <div class="row">
-          <h1>
-            <span style="color:green">|</span>Contact</h1>
-          <p>Phone: (718) 581-6413 | Email <a href="mailto:cyang001@citymail.cuny.edu">cyang001@citymail.cuny.edu</a></p>
-          <div class="social-icons">
-            <a class="facebook" href="https://www.facebook.com/ChristopherYang126"><i class="fa fa-facebook-square"></i></a>
-            <a class="linkedin" href="http://www.linkedin.com/in/yang001"><i class="fa fa-linkedin"></i></a>
-            <a class="github" href="https://github.com/cyang001"><i class="fa fa-github"></i></a>
-            <a class="stackoverflow" href="http://stackoverflow.com/users/3768205/cyang001"><i class="fa fa-stack-overflow"></i></a>
-            <a class="bitbucket" href="https://bitbucket.org/cyang001"><i class="fa fa-bitbucket"></i></a>
-
-          </div>
-        </div>
-      </div>
-    </div>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script type="text/javascript" src="main.js"></script>
-  </body>
+  </div>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+</body>
 
 </html>

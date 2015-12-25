@@ -34,11 +34,11 @@
 }
 
 .jumbotron {
-  background-image:url('../images/cover.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  height: 700px;
+  background-color: #073642;
+  height: 450px;
   z-index: -1;
 }
 
@@ -49,10 +49,10 @@
 
 .jumbotron h1 {
 
-  color: #fff;
-  font-size: 60px;
-  font-family: 'Shift', sans-serif;
-  font-weight: bold;
+  color: #93a1a1;
+  font-size: 20px;
+  font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+  line-height: 130%;
 }
 
 .jumbotron p {
@@ -177,8 +177,8 @@
 }
 
 .contact p {
-  font-family: Verdana, Geneva, sans-serif;
-	font-size: 18px;
+  font-family: Verdana, Geneva, serif;
+	font-size: 16px;
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 500;
@@ -187,7 +187,7 @@
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  padding: 30px;
+  padding: 10px;
   padding-left: 4em;
 }
 
@@ -225,8 +225,9 @@
 
 .social-icons i{
   padding: 20px;
-  font-size: 80px;
+  font-size: 40px;
 }
+
 
 /* Carousel */
 
