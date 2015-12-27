@@ -58,7 +58,6 @@
   margin-right: .5em;
   color: #888
 }
-
 .jumbotron h1 #line2:before {
   counter-increment: line;
   content: counter(line);
@@ -68,8 +67,6 @@
   margin-right: .5em;
   color: #888
 }
-
-
 .about-me {
   padding: 30px 10px;
   border-bottom: 2px solid #dbdbdb;
