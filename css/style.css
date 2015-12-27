@@ -1,3 +1,10 @@
+hr {
+  max-width: 85%;
+  margin: 15px auto;
+  border-color: black;
+  border-radius: 3px;
+}
+
 .nav {
   position: fixed;
   width: 100%;
@@ -69,7 +76,6 @@
 }
 .about-me {
   padding: 30px 10px;
-  border-bottom: 2px solid #dbdbdb;
 }
 .about-me img {
   display: block;
@@ -103,8 +109,6 @@
 }
 .projects {
   padding-top: 30px;
-  background-color: #efefef;
-  border-bottom: 2px solid #dbdbdb;
 }
 .projects h1 {
   color: #393c3d;
@@ -121,7 +125,6 @@
 }
 .experience {
   padding: 30px 10px;
-  border-bottom: 2px solid #dbdbdb;
 }
 .experience h1 {
   color: #393c3d;
@@ -154,7 +157,6 @@
 }
 .contact {
   padding: 30px 10px;
-  background-color: #efefef;
   padding-bottom: 50px;
 }
 .contact h1 {
