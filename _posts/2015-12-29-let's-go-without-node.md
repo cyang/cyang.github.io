@@ -59,7 +59,3 @@ Although I have never used Go, the feedback from the community has encouraged me
 [6] [https://golang.org/project/](https://golang.org/project/)
 
 [7] [https://nodejs.org/](https://nodejs.org/)
-
-.center {
-  text-align: center;
-}
