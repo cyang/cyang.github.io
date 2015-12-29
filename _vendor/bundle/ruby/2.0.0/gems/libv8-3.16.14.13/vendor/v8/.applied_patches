@@ -1,6 +1,0 @@
-/Users/ChrisYang/Projects/cyang001.github.io/_vendor/bundle/ruby/2.0.0/gems/libv8-3.16.14.13/patches/clang/no-unused-private-field.patch
-/Users/ChrisYang/Projects/cyang001.github.io/_vendor/bundle/ruby/2.0.0/gems/libv8-3.16.14.13/patches/clang33/silence-nested-anon-types-and-unused-function-warnings.patch
-/Users/ChrisYang/Projects/cyang001.github.io/_vendor/bundle/ruby/2.0.0/gems/libv8-3.16.14.13/patches/clang51/no-unused-variable.patch
-/Users/ChrisYang/Projects/cyang001.github.io/_vendor/bundle/ruby/2.0.0/gems/libv8-3.16.14.13/patches/clang70/no-unused-local-typedefs.patch
-/Users/ChrisYang/Projects/cyang001.github.io/_vendor/bundle/ruby/2.0.0/gems/libv8-3.16.14.13/patches/disable-building-tests.patch
-/Users/ChrisYang/Projects/cyang001.github.io/_vendor/bundle/ruby/2.0.0/gems/libv8-3.16.14.13/patches/fPIC-for-static.patch
