@@ -1,3 +1,6 @@
 _site
 .sass-cache
-
+_vendor
+.bundle
+gemfile
+gemfile.lock
