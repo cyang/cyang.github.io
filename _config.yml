@@ -17,7 +17,7 @@ baseurl: ""
 title: Christopher Yang
 
 # Short description of your site
-description: A virtual proof that name is awesome!
+description: Christopher Yang's blog
 
 # --- Navigation bar options --- #
 
@@ -46,7 +46,7 @@ author:
 
 # Select which links to show in the footer
 footer-links-active:
-  rss: false
+  rss: true
   facebook: true
   twitter: false
   github: true

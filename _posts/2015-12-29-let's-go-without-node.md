@@ -2,7 +2,6 @@
 layout: post
 title: Let's Go without Node
 subtitle: Predicting a 2016 Web Trend
-markdown: kramdown
 ---
 
 
