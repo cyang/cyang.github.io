@@ -33,6 +33,7 @@ foo1(function(param1){
 
 {% endhighlight %}
 
+{: .center}
 ![Callback hell](http://home.iitk.ac.in/~bhanuc/Deck%20Title_files/1j6gAIn.jpg)
 
 Go is capable of handling the all of the tasks Node.js can do and so much more. Given that it is roughly the same age as Node.js, Go has been praised by many developers for its simplicity, while also being a powerful tool that can handle various development purposes not limited to synchronized services for servers.

@@ -2,6 +2,11 @@
 
 /* --- General --- */
 
+/* To center images */
+.center {
+    text-align: center;
+}
+
 body {
   font-family: 'Lora', 'Times New Roman', serif;
   font-size: 18px;
