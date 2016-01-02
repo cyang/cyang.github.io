@@ -75,7 +75,7 @@ highlighter: pygments
 permalink: /blog/:year-:month-:day-:title
 paginate: 5
 paginate_path: "/blog/page:num"
-
+disqus: "disqus_dW4E4gyvXF"
 # Default YAML values (more information on Jekyll's site)
 defaults:
   -
