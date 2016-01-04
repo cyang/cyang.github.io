@@ -17,4 +17,14 @@ $('#main-navbar').on('hidden.bs.collapse', function () {
   $(".navbar").removeClass("top-nav-expanded");
 })
 
-// 2fc73a3a967e97599c9763d05e564189
+$(document).ready(function () {
+    $(".jumper").on("click", function (e) {
+
+        e.preventDefault();
+
+        $("body, html").animate({
+            scrollTop: $($(this).attr('href')).offset().top - 45
+        }, 500);
+
+    });
+});
