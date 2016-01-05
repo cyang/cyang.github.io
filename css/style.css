@@ -1,3 +1,7 @@
+body {
+    padding-top: 50px;
+}
+
 hr {
   max-width: 85%;
   margin: 15px auto;
@@ -5,13 +9,6 @@ hr {
   border-radius: 3px;
 }
 
-.nav {
-  position: fixed;
-  width: 100%;
-  height: 45px;
-  background-color: #E74C3C;
-  z-index: 100;
-}
 #Calendar {
   width: 50%;
   height: 50%;
@@ -25,30 +22,19 @@ hr {
   line-height: 20px;
   color: lightseagreen;
 }
-.nav a {
-  color: snow;
-  font-size: 14px;
-  font-weight: bold;
-  padding: 10px 10px;
-  text-transform: uppercase;
-}
-.nav li {
-  display: inline;
-}
-.jumbotron {
+
+
+#jumbotron {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-color: #073642;
-  height: 450px;
+  padding: 30px 10px;
   z-index: -1;
   counter-reset: line;
 }
-.jumbotron .container {
-  position: relative;
-  top: 40px;
-}
-.jumbotron h1 {
+
+#jumbotron h1 {
   color: #93a1a1;
   font-size: 20px;
   font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
@@ -56,7 +42,7 @@ hr {
   counter-reset: line;
   margin-left: 2.5em;
 }
-.jumbotron h1 #line:before {
+#jumbotron h1 #line:before {
   counter-increment: line;
   content: counter(line);
   display: inline-block;
@@ -65,12 +51,12 @@ hr {
   margin-right: .5em;
   color: #888
 }
-.jumbotron h1 #line2:before {
+#jumbotron h1 #line2:before {
   counter-increment: line;
   content: counter(line);
   display: inline-block;
   border-right: 1px solid #ddd;
-  padding: 0 .5em;
+  padding: 0 .53em;
   margin-right: .5em;
   color: #888
 }
