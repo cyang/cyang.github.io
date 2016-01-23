@@ -1,6 +1,6 @@
-[submodule "submodules/jumpyMario"]
-	path = submodules/jumpyMario
-	url = https://github.com/cyang001/Jumpy-Mario
-[submodule "submodules/solarSystem"]
-	path = submodules/solarSystem
-	url = https://github.com/cyang001/Solar-System
+[submodule "submodules/Jumpy-Mario"]
+	path = submodules/Jumpy-Mario
+	url = https://github.com/cyang/Jumpy-Mario
+[submodule "submodules/Solar-System"]
+	path = submodules/Solar-System
+	url = https://github.com/cyang/Solar-System
