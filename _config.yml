@@ -69,6 +69,7 @@ url-pretty: "My Website"  # eg. "deanattali.com/beautiful-jekyll"
 # --- Don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
+gems: [jekyll-paginate]
 timezone: "America/NewYork"
 markdown: kramdown
 highlighter: rogue
