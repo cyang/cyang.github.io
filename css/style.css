@@ -109,6 +109,7 @@ hr {
   /*    font-family: 'Shift', sans-serif;*/
   font-weight: bold;
 }
+
 .experience {
   padding: 30px 10px;
 }
@@ -297,4 +298,16 @@ hr {
 }
 .slider-dots li.active-dot {
   color: #363636;
+}
+
+.chip {
+    display: inline-block;
+    height: 32px;
+    font-size: 13px;
+    font-weight: 500;
+    color: rgba(0,0,0,0.6);
+    line-height: 32px;
+    padding: 0 12px;
+    border-radius: 16px;
+    background-color: #e4e4e4;
 }
