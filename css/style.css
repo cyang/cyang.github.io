@@ -142,6 +142,16 @@ hr {
 .experience ul {
   margin-bottom: 30px;
 }
+.publication {
+  padding: 30px 10px;
+}
+.publication h1 {
+  color: #393c3d;
+  font-size: 40px;
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
 .contact {
   padding: 30px 10px;
   padding-bottom: 50px;
