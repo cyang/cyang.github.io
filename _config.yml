@@ -72,7 +72,7 @@ url-pretty: "My Website"  # eg. "deanattali.com/beautiful-jekyll"
 gems: [jekyll-paginate]
 timezone: "America/NewYork"
 markdown: kramdown
-highlighter: rogue
+highlighter: rouge
 permalink: /blog/:year-:month-:day-:title
 paginate: 5
 paginate_path: "/blog/page:num"
